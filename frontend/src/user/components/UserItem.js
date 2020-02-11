@@ -7,7 +7,7 @@ import "./UserItem.css";
 
 const UsersItem = props => {
   return (
-    <li className="user-item">
+    <li className="user-item center">
       <div>
         <Card className="user-item__content">
           <Link to={`/{props.id/places}`}>
